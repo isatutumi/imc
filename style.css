@@ -1,3 +1,7 @@
+*{
+    font-family: "Nunito";
+  }
+
 main{
     display: flex;
     width: 100vw;
@@ -24,7 +28,8 @@ main{
     align-items: center;
     width: 100%;
     height: 50px;
-    font: bold 2.5rem serif;
+    font-weight: 900;
+    font-size: 2.5rem;
   }
   
   .input {
@@ -40,18 +45,21 @@ main{
     border-radius: 5px;
     border:none;
     outline: 0;
-    font: bold 1.5rem serif;
+    font-weight: 700;
+    font-size: 1.5rem;
     text-align: center;
   }
   
   .input label {
-    font: bold 1.5rem serif;
+    font-weight: 700;
+    font-size: 1.5rem;
   }
   
   button{
     width: 300px;
     height: 40px;
-    font: bold 1.2rem serif;
+    font-weight: 700;
+    font-size: 1.2rem;
     background: mediumorchid;
     color: black;
     outline: mediumorchid;
@@ -67,7 +75,8 @@ main{
     width: 300px;
     height: 150px;
     border-radius: 5px;
-    font: italic 1.5rem serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
     box-shadow: none;
     background: mediumorchid;
     color: black;
